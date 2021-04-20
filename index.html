@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Numero Mayor condicional</title>
+</head>
+
+
+<h2>Programa No. 1 (JavaScript)</h2>
+<h3>Cristian Omar Guzman Vargas
+<p>
+	Instrucciones
+Lleve a cabo un programa en JavaScript que permita leer desde teclado 3 números y
+ almacenarlos en variables individuales. El programa escribirá en consola o en el documento HTML cuál de los 3 números es el mayor.
+
+ 
+
+Los entregables serán:
+
+El código en su cuenta de GitHub.
+El enlace de la aplicación para su ejecución y evaluación
+
+</p>
+
+</h3>
+
+
+<body>
+
+<script type="text/javascript">
+	var numero01;
+	var numero02;
+
+	numero01=parseInt(prompt("Ingrese el numero 1",""));
+	numero02=parseInt(prompt("Ingrese el numero 2",""));
+	numero03=parseInt(prompt("Ingrese el numero 3",""));
+
+	if(numero01 > numero02 && numero01 > numero03)
+	{
+        //imprime numero mayor
+	document.write("El numero mayor es: " + numero01 + " ( Numero 1 )");
+	}
+	else if( numero02 > numero01 && numero02 > numero03){
+       //imprime numero mayor
+	document.write("El Numero mayor es : " + numero02 + " ( Numero 2 )");
+	}
+	else if( numero03 > numero01 && numero03 > numero02){
+       //imprime numero mayor
+	document.write("El Numero mayor es : " + numero03 + " ( Numero 3 )");
+	}
+	</script>
+
+</body>
+</html>
